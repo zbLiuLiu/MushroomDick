@@ -8,7 +8,6 @@ Created from templates made available by Stagehand under a GPL-3.0 License-style
 A simple usage example:
 
 ```dart
-import 'package:mushroom_dick/mushroom_dick.dart';
 import 'package:mushroom_dick/src/mushroom_dick_base.dart';
 import 'package:mushroom_dick/src/mushroom_dick.dart';
 import 'package:mushroom_dick/mushroom_dick_types.dart';
