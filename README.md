@@ -1,6 +1,10 @@
 A library for Dart developers.
 
+<<<<<<< HEAD
 Created from templates made available by Stagehand under a GPL-3.0 License-style
+=======
+Created from templates made available by Stagehand under a BSD-style
+>>>>>>> 2e3ad414f6254b79f52699b512acbff79f73d281
 [license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
 
 ## Usage
@@ -9,6 +13,7 @@ A simple usage example:
 
 ```dart
 import 'package:mushroom_dick/mushroom_dick.dart';
+<<<<<<< HEAD
 import 'package:mushroom_dick/src/mushroom_dick_base.dart';
 import 'package:mushroom_dick/src/mushroom_dick.dart';
 import 'package:mushroom_dick/mushroom_dick_types.dart';
@@ -37,6 +42,12 @@ Future<void> objectMode() async {
   print(await plans[0].signIn(type: MushRoomDickType.START_WORK));
 }
 
+=======
+
+main() {
+  var awesome = new Awesome();
+}
+>>>>>>> 2e3ad414f6254b79f52699b512acbff79f73d281
 ```
 
 ## Features and bugs
