@@ -1,3 +1,5 @@
+# MushroomDick-SDK
+
 A library for Dart developers.
 
 Created from templates made available by Stagehand under a GPL-3.0 License-style

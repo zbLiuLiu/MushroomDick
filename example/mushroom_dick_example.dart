@@ -1,7 +1,7 @@
-import 'package:mushroom_dick/mushroom_dick.dart';
-import 'package:mushroom_dick/src/mushroom_dick_base.dart';
-import 'package:mushroom_dick/src/mushroom_dick.dart';
-import 'package:mushroom_dick/mushroom_dick_types.dart';
+import 'package:mushroom_dick_sdk/mushroom_dick.dart';
+import 'package:mushroom_dick_sdk/src/mushroom_dick_base.dart';
+import 'package:mushroom_dick_sdk/src/mushroom_dick.dart';
+import 'package:mushroom_dick_sdk/mushroom_dick_types.dart';
 
 String username = '';
 String password = '';
