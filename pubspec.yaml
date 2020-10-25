@@ -1,6 +1,6 @@
 name: mushroom_dick_sdk
 description: A Dart SDK of Moguding APP.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/zbLiuLiu/MushroomDick-SDK
 
 environment:
