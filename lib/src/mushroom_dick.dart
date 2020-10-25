@@ -28,7 +28,7 @@ class MushroomDickPlan{
   final _map;
   final _token;
   MushroomDickPlan(this._token,this._map,this._mushroomDickBase);
-  Future<void> signIn({
+  Future<Map> signIn({
     String type, 
     String address, 
     String description, 
@@ -39,8 +39,9 @@ class MushroomDickPlan{
     String country 
   }) async {
     print(_map);
-    var result = await _mushroomDickBase.signIn(token: _token,planId: _map['id'],type: type,address: address,description: description,province: province,longitude: longitude,latitude: latitude,city: city,country: country);
+    var result = await _mushroomDickBase.signIn(token: _token,planId: _map['planId'],type: type,address: address,description: description,province: province,longitude: longitude,latitude: latitude,city: city,country: country);
     if(result['code']!=200) throw MushroomDickException(result['msg'], result['code']);
+    return result;
   }
 }
 
